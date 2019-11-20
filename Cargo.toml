@@ -1,0 +1,25 @@
+[package]
+name = "acorrelate"
+description = "Auto-correlate audio files"
+version = "0.1.0"
+authors = ["Milkey Mouse <milkeymouse@meme.institute>"]
+edition = "2018"
+repository = "https://github.com/milkey-mouse/acorrelate"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+categories = [
+    "command-line-utilities",
+    "algorithms",
+    "multimedia::audio"
+]
+keywords = [
+    "correlation",
+    "isolation",
+    "audio",
+    "sound",
+    "instrumental",
+]
+
+[dependencies]
+sample = "0.10.0"
+
